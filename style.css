@@ -70,7 +70,7 @@ body {
 
 .text-konten .Deskripsi {
     font-size: 22px;
-    margin-left: 100px;
+    margin-left: 0px;
 }
 
 .image-container {
@@ -84,7 +84,7 @@ body {
     line-height: 1.1;
     padding-bottom: 50px;
     font-weight: 900;
-    margin-left: 100px;
+    margin-left: 0px;
 }
 
 .text-konten {
@@ -405,6 +405,12 @@ body {
     margin: 0;
   }
 
+  .text-konten {
+    margin: 0;
+    padding: 0;
+}
+
+
 .image-container {
     width: 100%;
     justify-content: center;
@@ -479,26 +485,26 @@ body {
   }
 
 .container-anggota {
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    gap: 50px;
+    flex-wrap: wrap;        /* supaya otomatis kiri-kanan */
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 10px;
   }
 
-.card-anggota {
-    width: 85%;
-    max-width: 320px;
-    height: 500px;
-  }
-
-.card-anggota img {
+  .card-anggota {
+    width: 85%;             /* bikin 2 kolom */
+    max-width: 250px;
     height: 400px;
+  }
+
+  .card-anggota img {
+    height: 300px;          /* kecilkan sedikit biar pas */
     filter: blur(0px);
   }
 
-.card-anggota p {
-  font-size: 20px;
-}
+  .card-anggota p {
+    font-size: 16px;
+  }
 
 }
  
