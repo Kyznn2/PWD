@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Stack+Sans+Headline:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Stack+Sans+Headline:wght@200..700&display=swap');
 
 *, html {
     padding: 0;
@@ -88,8 +88,9 @@ nav li a:hover {
 }
 
 .text-konten .Deskripsi {
-    font-size: 22px;
+    font-size: 25px;
     margin-left: 0px;
+    font-weight: 400;
 }
 
 .image-container {
@@ -141,16 +142,17 @@ nav li a:hover {
 }
 .Judul-tentang {
     text-align: center;
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: 1000;
     margin-bottom: 20px;
 }
 
 .Deskripsi-Tentang {
     text-align: justify;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     line-height: 1.7;
     color: #000000;
+    font-weight: 400;
 }
 /* Selesai Container-Tentang */
 
@@ -278,13 +280,19 @@ nav li a:hover {
 }
 
 .text-manfaat {
-    line-height: 1.8; 
+    line-height: 1.5; 
     margin-bottom: 200px;
+    background: rgba(255, 255, 255, 0.493);
+    backdrop-filter: blur(10px);
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 60px 100px ;
+    border-radius: 15px;
+    margin-right: 60px;
 }
 
 .image-manfaat img {
     margin: auto;
-    max-width: 80%;
+    max-width: 100%;
     height: auto;
     display: block;
 }
@@ -305,10 +313,17 @@ nav li a:hover {
 .text-Keunggulan {
     flex: 1;
     padding-right: 0px;
+    background: rgba(255, 255, 255, 0.493);
+    backdrop-filter: blur(10px);
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 60px 20px ;
+    border-radius: 15px;
+    margin-right: 60px;
 }
 
+
 .text-Keunggulan .Deskripsi-Keunggulan {
-    font-size: 22px;
+    font-size: 26px;
     margin-left: 100px;
     text-align: justify;
 }
