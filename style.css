@@ -496,34 +496,42 @@ nav ul.hidden {
     height: auto;
   }
 
-  /* ======= MANFAAT ======= */
-.container-manfaat {
-    flex-direction: column;
-    text-align: center;
-    padding: 20px 10px;
-  }
+  /* Manfaat dan Keunggulan */
 
-.text-manfaat h3 {
-    font-size: 30px;
-    margin: 0;
-  }
+  .container-manfaat,
+    .container-Keunggulan {
+        flex-direction: column;
+        padding: 20px 15px;
+        gap: 20px;
+    }
 
-.Deskripsi-manfaat {
-    font-size: 10px;
-    margin: 0 auto;
-    max-width: 600px;
-  }
+    .text-manfaat,
+    .text-Keunggulan {
+        margin: 0;
+        padding: 25px 20px;
+        flex: none;
+        width: 100%;
+    }
 
-  /* ==== Keunggulan ===*/
+    .text-manfaat h3,
+    .text-Keunggulan h3 {
+        font-size: 32px;
+        margin-left: 0;
+        text-align: center;
+        padding-bottom: 20px;
+    }
 
-  .text-Keunggulan h3 {
-    font-size: 30px;
-    line-height: 1.1;
-    padding-bottom: 50px;
-    font-weight: 900;
-    margin-left: 100px;
-}
+    .text-manfaat .Deskripsi-manfaat,
+    .text-Keunggulan .Deskripsi-Keunggulan {
+        font-size: 18px;
+        margin-left: 0;
+        text-align: justify;
+    }
 
+    .image-manfaat img {
+        max-width: 90%;
+        margin-top: 0px;
+    }
 }
 
 /* === Responsif  (max-width: 1400px) === */
