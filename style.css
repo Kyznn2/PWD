@@ -13,7 +13,7 @@ body {
     font-family: "Stack Sans Headline", sans-serif;
 }
 
-/* navbar */
+
 nav {
     width: 100%;
     display: flex;
@@ -65,12 +65,10 @@ nav li a:hover {
 }
 
 .nav-toggle {
-   /* background-color: #eb1313; */ 
     display: none;
 }
-/* selesai-navbar */
 
-/* container-awal */
+
 .container { 
     display: flex; 
     align-items: center;
@@ -118,9 +116,9 @@ nav li a:hover {
     max-width: 100%;
     height: auto;
 }
-/* container-selesai */
 
-/* Container-Tentang */
+
+
 .container-Tentang {
     width: 100%;
     height: auto;
@@ -154,9 +152,9 @@ nav li a:hover {
     color: #000000;
     font-weight: 400;
 }
-/* Selesai Container-Tentang */
 
-/* container-macam-judul */
+
+
 .judul-macam {
     text-align: center;
     margin-bottom:0;
@@ -172,7 +170,7 @@ nav li a:hover {
     text-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* container-macam2 */
+
 .container-macam2 {
     display: flex;
     justify-content: center;
@@ -188,7 +186,8 @@ nav li a:hover {
 }
 
 .macam, .macam1, .macam2, .macam3 {
-    background-color: whitesmoke;
+    background: rgba(255, 255, 255, 0.493);
+    backdrop-filter: blur(10px);
     box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     padding: 20px;
@@ -239,20 +238,17 @@ nav li a:hover {
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
     background-color: white;
 }
-/* Selesai-Macam2 */
 
-/* container-manfaat */
 
-.carousel {
+
+
+.video  {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  gap: 30px;
-  perspective: 1200px;
+  gap: 40px;
   padding: 50px 20px;
-  border-radius: 15px;
-  overflow: hidden;
   background: rgba(255, 255, 255, 0.493);
   backdrop-filter: blur(10px);
   border-radius: 15px;
@@ -273,13 +269,6 @@ nav li a:hover {
   transition: all 0.3s ease;
 }
 
-/* .card p {
-  margin: 0;
-  text-align: center;
-  font-size: 18px;
-  font-weight: 600;
-  color: #444444;
-} */
 
 .yt1:hover,
 .yt2:hover,
@@ -343,10 +332,9 @@ nav li a:hover {
     height: auto;
     display: block;
 }
-/* selesai-manfaat */
 
 
-/* container-Keunggulan */
+
 .container-Keunggulan { 
     align-items: center;
     gap: 5vw;
@@ -387,9 +375,8 @@ nav li a:hover {
     line-height: 1.8; 
     margin-bottom: 200px;
 }
-/* selesai-Keunggulan */
 
-/* card-anggota */
+
 .judul-anggota {
   text-align: center;
   margin: 0;
@@ -455,7 +442,6 @@ nav li a:hover {
     transform: scale(1.02);
     transition: all 0.3s ease;
 }
-/* Selesai card-anggota */
 
 /* === Responsif  (max-width: 768px) === */
 @media (max-width: 768px) {
@@ -479,7 +465,7 @@ nav ul.hidden {
     display: flex;
 }
 
-  /* ======= BAGIAN UTAMA ======= */
+/* ======= BAGIAN UTAMA ======= */
 .container {
     flex-direction: column;
     padding: 20px;
@@ -513,7 +499,7 @@ nav ul.hidden {
     height: auto;
   }
 
-  /* ==== PENJELASAN ==== */
+/* ==== Tentang ==== */
 .container-Tentang {
     padding: 40px;
 
